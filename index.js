@@ -54,7 +54,7 @@ const defaultTag = (literals, ...expressions) =>
     result: result + literal + (expressions.length ? expressions[0] : ''),
     expressions: expressions.slice(1)
   }), { result: '', expressions }).result
-  assert.equal(defaultTag(['hello from ', ' side ', ''], 'the other', 'my friend'), 'hello from the other side my friend') // TEST
+assert.equal(defaultTag(['hello from ', ' side ', ''], 'the other', 'my friend'), 'hello from the other side my friend') // TEST
 
 const template = (string, tag=defaultTag) => {
   const { stack, mode, counter} = string.split('').reduce(parse, { stack: [''], mode: 'literal', counter: 0 })
