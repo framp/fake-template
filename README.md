@@ -24,14 +24,15 @@ console.log(`Dear ${name}, we found the perfect ${title} job in ${location} for 
 
 ### Warnings
 
-Contains `eval` and `with` on the same line
+Contains `eval` and `with` on the same line.
+
 Also, code inside your expressions have access to anything, so be careful when using strings coming from users
 
 ### Contributions
 
-Bug reports highly appreciated
+- Bug reports highly appreciated.
 
-PRs super welcome
+- PRs super welcome.
 
 ### TODO
 For completeness' sake it would be good to support [raw_strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#Raw_strings).
