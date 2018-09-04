@@ -1,0 +1,26 @@
+{
+  "name": "fake-template",
+  "version": "1.0.0",
+  "description": "Replicate template literals' behaviour with normal strings",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "sed -i '/\\/\\/ TEST/d' index.js",
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/framp/fake-template.git"
+  },
+  "keywords": [
+    "template",
+    "literals",
+    "strings",
+    "replace"
+  ],
+  "author": "Federico Rampazzo <frampone@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/framp/fake-template/issues"
+  },
+  "homepage": "https://github.com/framp/fake-template#readme"
+}
