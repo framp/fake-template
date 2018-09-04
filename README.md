@@ -22,6 +22,11 @@ const name = 'Joanna', title = 'Cosmonaut', location = 'London'
 console.log(`Dear ${name}, we found the perfect ${title} job in ${location} for you!`)
 ```
 
+### Warnings
+
+Contains `eval` and `with` on the same line
+Also, code inside your expressions have access to anything, so be careful when using strings coming from users
+
 ### Contributions
 
 Bug reports highly appreciated
